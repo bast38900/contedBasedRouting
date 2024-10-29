@@ -20,7 +20,7 @@ class Program
     // Setup queue
     SetupQueue(channel);
 
-    Console.WriteLine(" [*] Waiting for gadget orders. Press [Ctrl+C] to exit.");
+    Console.WriteLine(" [*] Waiting for gadget orders.");
 
     // Create consumer and receive messages
     var consumer = new EventingBasicConsumer(channel);

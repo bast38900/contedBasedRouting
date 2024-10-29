@@ -1,4 +1,6 @@
 ﻿// Purpose: Order producer console application for RabbitMQ messaging.
+// Headers is used for content based routing, due to its simplicity and ease of use.
+// Topics can be used for more complex routing scenarios.
 using System.Text;
 using RabbitMQ.Client;
 
