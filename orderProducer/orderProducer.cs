@@ -1,17 +1,18 @@
-﻿using System;
+﻿// Purpose: Order producer console application for RabbitMQ messaging.
 using System.Text;
 using RabbitMQ.Client;
 
 class Program
 {
-  // Exchange name and connection factory constants
+  // Constants for connection and queue setup
+  private const string HostName = "localhost";
   private const string ExchangeName = "order_exchange";
-  private static readonly ConnectionFactory Factory = new ConnectionFactory() { HostName = "localhost" };
 
   static void Main(string[] args)
   {
     // Create connection and channel
-    using var connection = Factory.CreateConnection();
+    var factory = new ConnectionFactory() { HostName = HostName };
+    using var connection = factory.CreateConnection();
     using var channel = connection.CreateModel();
     
     // Declare exchange (header based routing / content based routing)
