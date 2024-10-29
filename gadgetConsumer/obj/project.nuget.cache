@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mDXJK4Dx0j4/Cuu0X6l5ZuJCNuQEb8NMWkvKAT8lrJp2WVoevDhEsZa11m/1sapNepexggUorR1k+qpibLpCEQ==",
+  "success": true,
+  "projectFilePath": "/Users/pentiam1pro/projects/UCL/system_integration/rabbitMQ_toturials/contedBasedRouting/gadgetConsumer/gadgetConsumer.csproj",
+  "expectedPackageFiles": [
+    "/Users/pentiam1pro/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512",
+    "/Users/pentiam1pro/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/pentiam1pro/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
